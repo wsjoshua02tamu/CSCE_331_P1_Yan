@@ -1,0 +1,45 @@
+body {
+    background-color: #ADD8E6;
+  }
+  body::before {
+    content: "";
+    border-top: 10px solid #FFA07A;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  body::after {
+    content: "";
+    border-bottom: 10px solid #FFA07A;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  table, th, td {
+    border: 1px solid #FFA07A;
+    padding: 8px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-box{
+    /*background-color: white;*/
+    background-image: url(light-blue-orange-abstract-gradient-texture_170579-1457.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #888888;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+  }
+  .github-button{
+    background-image: url(githubbutton-removebg-preview.png);
+    background-size: cover;
+  }
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
