@@ -6,11 +6,11 @@
   <style>
     /* set the background color */
     body {
-      background-color: #ADD8E6; /* light blue color */
+      background-color: #75dcff; /* light blue color */
     }
     /* set the text color */
     h1{
-        color: #FFA07A
+        color: #e88a65
     }
     p {
       color: #f7fafb; /* orange color */
@@ -36,7 +36,7 @@
     }
     /* add a chat bubble */
     .chat-bubble {
-      background-color: #FFA07A; /* orange color */
+      background-color: #e88a65; /* orange color */
       color: white;
       padding: 10px;
       border-radius: 10px;
@@ -50,11 +50,24 @@
       text-align: left;
     }
     table, th, td {
-    border: 1px solid #FFA07A;
+      border: 1px solid #e88a65;
     padding: 8px;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e88a65;
+  }
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
   }
 
   </style>
@@ -73,11 +86,16 @@
   <h1>Chat GPT</h1>
   <div class="chat-container">
     <div class="user-bubble chat-bubble">
-      <p>I asked ChatGPT to generate this webpage using HTML and CSS. How did it do? </p>
+      <p>I asked ChatGPT to generate this webpage using HTML and CSS.</p>
     </div>
     <div class="bot-bubble chat-bubble">
-      <p>I prompted ChatGPT to generate me a webpage in HTML, that was light blue and orange in color, modern, and had a similar UI to the ChatGPT website itself.</p>
+      <p>How did it do it?</p>
     </div>
   </div>
+  <p style="text-align: center;">ChatGPT is a state-of-the-art language model developed by OpenAI. It is a deep learning model trained on a large corpus of text data to generate human-like responses to natural language questions and prompts. ChatGPT can be used for various natural language processing tasks such as text completion, language translation, and question-answering. The model has received extensive training and has the ability to generate coherent and contextually appropriate responses to a wide range of inputs.
+  </p>
+  <p>I prompted ChatGPT to generate me a webpage in HTML, that was blue and orange in color, modern, and had a similar UI to the ChatGPT website itself. I also asked it to give a short introduction of itself, which is the paragraph above!</p>
+
+  <p>If you want to try it out yourself, access ChatGPT <a href="https://chat.openai.com/chat"><u>here.</u></a></p>
 </body>
 </html>

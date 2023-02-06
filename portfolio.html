@@ -1,7 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <link rel="stylesheet" type = "text/css" href="styles.css">
+    <link  id = "theme" rel="stylesheet" type = "text/css" href="styles.css">
+    <script src='functions.js'></script>
 <title>About me</title>
 <!--<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">-->
 </head>
@@ -29,7 +30,7 @@
     <li>The data used is from a public data set of cars, specifically, the mileage, weight, and horsepower of said car. </li>
 </ul>
 
-<button onclick="window.location.href='https://drive.google.com/drive/folders/17NRUeiWjD9vcV7H_bD61ajSwOgr5kvm7?usp=sharing';">
+<button type="button"  class = "button" onclick="window.location.href='https://drive.google.com/drive/folders/17NRUeiWjD9vcV7H_bD61ajSwOgr5kvm7?usp=sharing';">
    Linear Regression Link
 </button>
 
@@ -40,7 +41,7 @@
     <li>Gameplay involves player using keyboard to navigate a text based map, collecting treasures and avoiding monsters to go to the next level</li>
 </ul>
 
-<button onclick="window.location.href='https://github.com/wsjoshua02tamu/Dungeon-Crawler';">
+<button type="button" class = "button" onclick="window.location.href='https://github.com/wsjoshua02tamu/Dungeon-Crawler';">
     Dungeon Crawler Link
 </button>
 
@@ -51,7 +52,7 @@
     <li>Supports insertion and deletion, finding the minimum and maximum, finding a specific value, and printing nodes</li>
 </ul>
 
-<button onclick="window.location.href='https://github.com/wsjoshua02tamu/Binary-Search-Tree';">
+<button type="button" class = "button" onclick="window.location.href='https://github.com/wsjoshua02tamu/Binary-Search-Tree';">
     BST Link
 </button>
 
@@ -62,15 +63,19 @@
     <li>Functionality includes pipelining, background process handling, input and output redirection, and file and directory navigation and handling</li>
 </ul>
 
-<button onclick="window.location.href='https://github.com/wsjoshua02tamu/Aggie-Shell';">
+<button type="button" class = "button" onclick="window.location.href='https://github.com/wsjoshua02tamu/Aggie-Shell';">
     Shell Link
 </button>
 
 <p>This website!</p>
 <ul>
     <li>Project for my CSCE 331 Foundations of Software Engineering class</li>
-    <li>Building a professional website using HTML and CSS</li>
+    <li>Building a professional website using HTML, CSS and JavaScript</li>
+    <li>Website supports multiple webpages, with external links and the ability to toggle between multiple style sheets (try below!)</li>
 </ul>
+<center><button type="button" onclick="toggleCSS()" class="button">Switch Themes</button></center>
+    <p id="output"></p>
+		<script src='functions.js'></script>
 </div>
 </body>
 </html>

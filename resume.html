@@ -1,7 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-   <link rel="stylesheet" type = "text/css" href="styles.css">
+   <link id = "theme"  rel="stylesheet" type = "text/css" href="styles.css">
+   <script src='functions.js'></script>
 <title>Resume</title>
 <!--<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">-->
 </head>
@@ -21,15 +22,16 @@
 <p style="text-align:center;"><font size ="+3">Resume</font></strong></p>
 <body>
 <p style="text-align:center;">Joshua Yan</strong></p>
-<a style="text-align:center;" href="mailto:wsjoshua02@gmail.com"><p>wsjoshua02@gmail.com</p></a>
+<a style="text-align:center;" href="mailto:wsjoshua02@gmail.com"><p><u>wsjoshua02@gmail.com</u></p></a>
 <p style="text-align:center;">972-658-6322</strong></p>
+<a style="text-align: center;" href="https://www.linkedin.com/in/joshua-yan-730518185/"><p><u>LinkedIn</u></p></a>
 <p style>Skills</strong></p>
 <ul>
-    <li>Teamwork</li>
-    <li>Customer service</li>
-    <li>C++</li>
-    <li>Verilog</li>
-    <li>Microsoft Office</li>
+    <li>My areas of interest include embedded systems, web design, design verification, and data structures and algorithms.</li>
+    <li>Due to my experience working in retail, I have a strong background with customer service and teamwork.</li>
+    <li>Through my classes, I have experience in Java and C++, and am also currently learning HTML, CSS, and JavaScript.</li>
+    <li>My classes have also given me experience with Verilog and circuit design and implementation.</li>
+    <li>I have a good foundation in mathematics, including calculus, linear algebra, statistics, and differential equations.</li>
 </ul>
 <p style>Experience</strong></p>
 <ul>
@@ -65,6 +67,9 @@
     <li>National Honor Society</li>
     <li>AP Scholar with Distinction</li>
 </ul>
+<center><button type="button" onclick="toggleCSS()" class="button">Switch Themes</button></center>
+    <p id="output"></p>
+		<script src='functions.js'></script>
 </div>
 </body>
 </html>

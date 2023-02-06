@@ -1,9 +1,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <link rel="stylesheet" type = "text/css" href="styles.css">
+    <link id = "theme"  rel="stylesheet" type = "text/css" href="styles.css">
+    <script src='functions.js'></script>
 <title>About me</title>
-<!--<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 </head>
 <style>
 </style>
@@ -20,18 +21,35 @@
   <body>
 <div class = "text-box">
 <p style="text-align:center;"><font size ="+3">About Me</font></strong></p>
-<img class="center" src="elbow_freeze.jpg" width="300" height="500" alt="">
+<!--<img class="center" src="elbow_freeze.jpg" width="300" height="500" alt="">-->
+<img class="center" src="seniorphoto1-transformed.jpeg" width = 200 height="250" alt="">
 <p>Howdy! My name is Joshua Yan.</strong></p>
 <p>I'm a junior computer engineering major at Texas A&M University. I'm a hardworking, dependable student and worker who will always try my best to get the job done.</p>
+<p>I've loved building things ever since I was a kid. 
+What started with building Lego sets has led to my current path of being an Aggie engineer, although I still enjoy the occasional Lego set these days.
+I've had a solid foundation in STEM that began in middle school, where I took my first technology class; 
+I took many STEM classes throughout my middle and high school years and learned skills ranging from Java programming to statistics to AutoDesk.
+However, I still made sure to keep a well rounded foundation. I very much enjoyed my humanities and AP history classes, learning about the people and events of times past and other cultures of the world.
+I was also involved in marching and concert band, participated in my school's award winning quiz bowl team, dabbled in hip hop dancing, and volunteered frequently as a member of the National Honor Society.
+I chose to come to Texas A&M as a college sponsored National Merit Scholar due to the strong engineering program.
+At my almost 3 years as an engineering student at A&M, I've been exposed to many different aspects of computer engineering; I've designed and tested components via Verilog, worked with assembly language, conducted physics experiments in the realms of mechanics and electricity and magnetism, painstakingly wired circuits, and coded many cool programs in C++, such as data structures and inter-process communication.
+Thanks to my education here, I will be working as a design verification intern at Hewlett Packard Enterprise (HPE) for the summer of 2023, and I can't wait to see where my journey takes me next!</p>
 <p>Here are some fun facts about me:</p>
 <ol>
-    <li>I was born in Boise, Idaho.</li>
-    <li>I like to dance! (as shown above)</li>
-    <li>I'm a fan of the Dallas Mavericks, and I've been to many games.</li>
+    <li>Although I consider myself a Texan, I was born in Boise, Idaho.</li>
+    <li>I like to dance! I started in high school and currently am an officer for a breakdancing and hip hop club at A&M.</li>
+    <li>I'm a fan of the Dallas Mavericks, and I've been to many games; witnessing a Dirk Nowitzki game winner in person was a core memory of mine.</li>
     <li>I have a Shiba-Inu Chihuaha mix named Trooper.</li>
-    <li>I love trying new foods.</li>
+    <li>I love trying new foods; one of my favorite parts of my Chinese heritage is the cuisine, and I love seeing what other cultures have to offer.</li>
 </ol>
-<p>Contact me at wsjoshua02@gmail.com or at the links below!</p>
+<img src="IMG_20210606_190221694_HDR.jpg" width="200" height="250" title="Trooper!">
+<img src="IMG_20220524_184915941.jpg" width="400" height="250" title="Mavs Warriors 2022 Western Conference Finals">
+<img src="elbow_freeze.jpg" width="200" height="250" title="Me doing a breakdancing move called an elbow freeze">
+<img src="IMG_20180614_182630287.jpg" width="300" height="250" title="A delicious meal I had in China">
+<p>Contact me at wsjoshua02@gmail.com, and feel free to check out <a href="https://www.linkedin.com/in/joshua-yan-730518185/"><u>what I've done</u></a>, <a href="https://github.com/wsjoshua02tamu"><u>some things I've made</u></a>, and even <a href="https://open.spotify.com/user/226jh26nldlxwhbi7u5m3anaq?si=098dc89b5a6b4322"><u>what I listen and jam out to</u></a>!</p>
+<center><button type="button" onclick="toggleCSS()" class="button">Switch Themes</button></center>
+    <p id="output"></p>
+		<script src='functions.js'></script>
 </div>
 </body>
 </html>
